@@ -1,0 +1,55 @@
+/* SearchBar.css */
+
+/* Styling for the search bar container */
+.search-bar {
+    display: none; /* Initially hide the search bar */
+    position:fixed;
+    top: 40%; /* Adjust as needed based on your navbar height */
+    left : 50%;
+    transform : translateX(-50%);
+    width: 80%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width:300%; /* Decreased width */
+    max-width: 40%; /* Maximum width */
+  }
+  
+  /* Show the search bar when the 'active' class is applied */
+  .search-bar.active {
+    display: block;
+  }
+  
+  /* Style for the input field */
+  .search-bar input[type='text'] {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #251414;
+    outline: none;
+    margin-right: 30px;
+  }
+  
+
+
+  .search-bar .go {
+    background-color: #a3abe6;
+    color: rgb(122, 49, 49)55, 255, 255;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-left: 8px; 
+    margin-right : 20px;
+    border-radius:60px;
+  }
+  .search-bar .cancel {
+    background-color: #a3abe6; /* Example color */
+    color: rgb(122, 49, 49)55, 255, 255;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    
+    border-radius: 60px;
+  }
+  

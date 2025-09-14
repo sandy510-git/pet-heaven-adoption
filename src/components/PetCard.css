@@ -1,0 +1,21 @@
+div #pet-info {
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+    /* Specify a font family */
+    color: #007bff;
+    /* Set the text color */
+    text-align: center;
+    /* Center align the text */
+    text-transform: uppercase;
+    /* Uppercase the text */
+    letter-spacing: 1px;
+    /* Adjust letter spacing */
+    padding-left : 3%;
+    line-height: 4.5;
+    margin-top : 50px;
+    margin: 70px 0;
+}
+
+#card {
+    margin-top : -50px;
+}
